@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<project name="Your project title">
+    <!-- 
+    In this project.xml document important objects inside this project
+    are identified.
+    -->
+    
+    <readme file="README.md" />
+    
+    <group name="UI Components">
+        
+        <!-- If you link to examples/#something, it will load examples/something.js -->
+        <link name="Dialog" url="examples/#dialog" />
+        <link name="Tab Index" url="examples/#tabindex" />
+        <link name="LocalStorage (todo)" url="examples/#localstorage" />
+        <link name="Layouts (docklayout)" url="examples/#layouts"/>
+        <link name="Toasts (flash messages)" url="examples/#toast"/>
+    </group>
+    
+    <group name="Examples">    
+        <link name="Maekert" url="examples/#maekert"/>
+        <link name="Document editor layout" url="examples/#document-editor-layout"/>
+    </group>
+    
+</project>

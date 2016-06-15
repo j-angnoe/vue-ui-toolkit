@@ -1,0 +1,40 @@
+<html>
+<head>  
+    
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="/node_modules/font-awesome/css/font-awesome.css">
+    
+    <!--    
+    <script src="/node_modules/jquery/dist/jquery.js"></script>
+    -->
+    <script src="/node_modules/vue/dist/vue.min.js"></script>
+    
+    <!--    
+    <script src="/node_modules/lodash/index.js"></script>
+    -->  
+    <script src="/examples/run-example.js"></script> 
+    <script src="/lib/bundle.js"></script>
+    
+    <link rel="stylesheet" href="/lib/dialog.css">
+    <link rel="stylesheet" href="/lib/docklayout.css">
+    <link rel="stylesheet" href="/lib/toast.css">
+</head>
+    
+<body>
+
+<div id="example">
+    <!-- Example content will be loaded here! -->   
+
+    <p>Loading example... <i class="fa fa-spin fa-refresh"></i></p> 
+</div>
+
+<script>
+window.onhashchange = function () {
+   runExample();  
+};
+
+runExample();
+
+</script>
+</body>
+</html>        

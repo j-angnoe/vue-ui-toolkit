@@ -1,0 +1,12 @@
+.docklayout {
+    position: relative;
+    overflow: hidden;  
+}
+.docklayout-child {
+    display: block;
+    position: absolute;
+    overflow: hidden;        
+}
+.docklayout .docklayout-content {
+    overflow: scroll;
+}

@@ -1,0 +1,47 @@
+.dialog-container {
+    position: absolute;
+    overflow: auto;
+    /*
+    width: 400px;
+    height: 400px;
+    */
+    box-shadow: 0 0 10px #aaa;
+    border: 1px solid #ddd;
+    background-color: white;
+    z-index: 1000;
+}
+
+.dialog-container .dialog-title { 
+    position: relative;
+    padding: 20px 20px;
+    font-size: 130%;
+    border-bottom: 1px solid #ddd;
+    background: white;
+}
+
+.dialog-container .dialog-close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 20px;
+}
+.dialog-container .dialog-content {
+    position: absolute;
+    overflow: auto;
+
+    top: 0px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 10px 20px;
+}
+.dialog-container.with-title .dialog-content {
+    top: 75px;
+}
+
+
+.dialog-container .dialog-content pre {
+    background: inherit;
+    color: inherit;
+    border: none;
+}
