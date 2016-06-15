@@ -9,14 +9,12 @@
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
     "bootstrap": "^3.3.6",
     "font-awesome": "^4.6.3",
     "jquery": "^2.2.4",
     "lodash": "^3.10.1",
-    "vue": "^1.0.24"
-  },
-  "devDependencies": {
+    "vue": "^1.0.24",
     "browserify": "^13.0.1"
   }
 }
